@@ -2,18 +2,14 @@
 
 function returnFirstTwoDrivers(array){
   
-  return drivers.slice(0, 2);
+  return array.slice(0, 2);
 };
 
 
 }
 
 function returnLastTwoDrivers(array){
-  const newArr=[]
-    newArr.push(array[array.length-2]);
-    newArr.push(array[array.length-1]);
-    return newArr
-
+  return array.slice(0,-2)
 }
 
 
