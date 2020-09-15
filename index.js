@@ -9,7 +9,7 @@ function returnFirstTwoDrivers(array){
 }
 
 function returnLastTwoDrivers(array){
-  return array.slice(0,-2)
+  return array.slice(-2)
 }
 
 
