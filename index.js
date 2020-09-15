@@ -2,6 +2,7 @@
 
 function returnFirstTwoDrivers(array){
   const newArr=[]
+<<<<<<< HEAD
     newArr.push(array[0]);
     newArr.push(array[1]);
     return newArr
@@ -41,3 +42,10 @@ function selectDifferentDrivers(drivers,returnFirstTwoDrivers){
    return returnFirstTwoDrivers(drivers)
 
 }
+=======
+    newArr.push(array[0]),
+    newArr.push(array[1])),
+    return newArr
+
+}
+>>>>>>> b67792c2aedc15fed9f5367c684d4e0d19f41f0f
