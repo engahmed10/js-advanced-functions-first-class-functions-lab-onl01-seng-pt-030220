@@ -1,11 +1,10 @@
 // Code your solution in this file!
 
 function returnFirstTwoDrivers(array){
-  const newArr=[]
-<<<<<<< HEAD
-    newArr.push(array[0]);
-    newArr.push(array[1]);
-    return newArr
+  
+  return drivers.slice(0, 2);
+};
+
 
 }
 
