@@ -35,4 +35,3 @@ function selectDifferentDrivers(drivers,returnFirstTwoDrivers){
    return returnFirstTwoDrivers(drivers)
 
 }
-
